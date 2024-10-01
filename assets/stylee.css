@@ -1,0 +1,97 @@
+.Yo{
+    width: 300px;
+    height: 250px;
+    
+}
+
+body {
+    background-color: rgba(128, 128, 128, 0.491) !important;
+}
+
+.mitarea{
+    background-color: rgba(93, 232, 211, 0.675);
+}
+.mitarea2{
+    background-color: rgba(93, 232, 211, 0.675);
+}
+.mitarea3{
+    background-color: rgba(93, 232, 211, 0.675);
+}
+.face{
+    width: 80px;
+    height: 80px;
+
+    
+}
+.insta{
+    width: 80px;
+    height: 80px;
+    margin-left: 30px;
+}
+.whatsapp{
+    width: 80px;
+    height: 80px;
+    margin-left: 30px;
+}
+h1{
+    font-family: "Spicy Rice", serif;
+    font-weight: 400;
+  
+}
+p{
+    font-family: "Finlandica", sans-serif;
+   
+}
+
+
+.container{
+    background-color: rgb(244, 244, 230);
+    
+}
+.minombre{
+    padding-left: 140px;
+}
+.soy{
+    padding-left: 140px;
+}
+.Contratame{
+    padding-left: 140px;
+}
+.lenguajes{
+    padding-left: 140px;
+}
+.botoneslenguajes{
+    padding-left: 140px;
+}
+
+.mistareas{
+    padding-left: 140px;
+}
+.tarjetastareas{
+    padding-left: 140px;
+}
+.redescontact{
+    padding-left: 140px;
+}
+.imagenesredes{
+    
+    padding-left: 140px;
+    
+}
+.mysqlpython{
+    padding-bottom: 25px;
+}
+nav{
+    background-color: aqua;
+}
+
+.carousel-inner{
+    width: 300px;
+    height: 300px;
+    background-color: blueviolet;
+}
+
+#carouselExample{
+    width: 300px;
+    height: 300px;
+}
