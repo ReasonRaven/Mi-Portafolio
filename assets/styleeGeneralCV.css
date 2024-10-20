@@ -6,13 +6,12 @@
 
 body {
     background-color: rgba(128, 128, 128, 0.491) !important;
-    background-image: url("images/Matrix.jpeg");
+    
     background-attachment: fixed;
 }
 
 .container {
     background-color: rgb(244, 244, 230);
-
 }
 
 .mitarea {
