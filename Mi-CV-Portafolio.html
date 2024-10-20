@@ -5,11 +5,18 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Mi portafolio</title>
-    <link rel="stylesheet" href="stylee.css">
+    <link rel="stylesheet" href="assets/styleeGeneralCV.css">
     <link rel="stylesheet" href="java.js">
+    <link rel="icon" href="assets/images/Yo.ico">
+
+    <!--Links para Bopoptsrap-->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
-        
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+        crossorigin="anonymous"></script>
+
     <!--Links para google fonts-->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -27,7 +34,7 @@
         href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Finlandica:ital,wght@0,400..700;1,400..700&family=Lobster&family=Old+Standard+TT&family=Spicy+Rice&display=swap"
         rel="stylesheet">
 
-        
+
 
 </head>
 
@@ -35,9 +42,9 @@
 
     <!--navbar-->
     <div class="container">
-        <nav class="navbar navbar-expand-lg bg-body-tertiary">
+        <nav class="navbar navbar-expand-lg bg-body-tertiary" id="--Inicio">
             <div class="container-fluid">
-                <a class="navbar-brand" href="#">Mi portafolio</a>
+                <a class="navbar-brand" href="#--Inicio">Mi portafolio</a>
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
                     data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
                     aria-expanded="false" aria-label="Toggle navigation">
@@ -46,14 +53,20 @@
                 <div class="collapse navbar-collapse" id="navbarSupportedContent">
                     <ul class="navbar-nav me-auto mb-2 mb-lg-0">
                         <li class="nav-item">
-                            <a class="nav-link active" aria-current="page" href="#">Home</a>
+                            <a class="nav-link active" aria-current="page" href="Mi-CV-Portafolio.html">Home</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="#">Acerca de</a>
+                            <a class="nav-link" href="#sobre mi">Acerca de</a>
                         </li>
                         <li class="nav-item"></li>
-                        <a class="nav-link" href="#">Tareas</a>
+                        <a class="nav-link" href="#tareass">Tareas</a>
                         </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#redes">Mis redes</a>
+                        </li>
+                        
+
+                        
                     </ul>
                     <div class="d-flex">
                         <a href="https://wa.me/522461747159?text=[hola]">
@@ -66,11 +79,15 @@
         <br>
         <br>
 
+        <hr>
+
         <!--Inicio de lo que se va a mostrar sobre mi portafolio-->
         <div class="row">
             <div class="col-lg-6 col-sm-12">
-                <h1 class="minombre">My name <br>is Jonathan</h1>
-                <p class="soy">Soy programador</p>
+                <h1 class="minombre" id="sobre mi">Mi nombre <br>es Jonathan</h1>
+                <p class="soy">Tengo 18 años, estoy aprendiendo a programar, aun no se muchos lenguajes pero trato
+                    de aprender todo lo que puedo.</p>
+
                 <div class="Contratame">
                     <a href="https://wa.me/522461747159?text=[Hola]">
                         <button type="button" class="btn btn-primary">Contratame</button>
@@ -92,14 +109,15 @@
                         <button class="btn btn-primary" type="button">Python</button>
                     </div>
                 </div>
-
-                <h1 class="mistareas">Mis tareas / proyectos</h1>
+                <hr>
+                <!--Tarjetas de las tareas-->
+                <h1 class="mistareas" id="tareass">Mis tareas / proyectos</h1> 
                 <div class="tarjetastareas">
                     <div class="row">
                         <div class="col-lg-4 col-sm-12 mb-3">
                             <a href="tarea1/mi_Pagina_WEB.html">
                                 <div class="card" style="width: 18rem;">
-                                    <img src="tarea1/imagenes1/Captura de pantalla 2024-09-23 a la(s) 7.37.35 p.m..png"
+                                    <img src="tarea1/imagenes1/SSdemipag.png"
                                         class="card-img-top" alt="...">
                                     <div class="mitarea">
                                         <div class="card-body">
@@ -112,9 +130,10 @@
 
 
                         <div class="col-lg-4 col-sm-12 mb-3">
-                            <a href="">
+                            <a href="tarea2/scanerKoala.html">
                                 <div class="card" style="width: 18rem;">
-                                    <img src="..." class="card-img-top" alt="...">
+                                    <img src="assets/images/poly-snapshot.jpg" class="card-img-top"
+                                        alt="Imagen de un koala">
                                     <div class="mitarea2">
                                         <div class="card-body">
                                             <p class="card-text">Tarea 2.</p>
@@ -124,10 +143,12 @@
                             </a>
                         </div>
 
+
+
                         <div class="col-lg-4 col-sm-12 mb-3">
-                            <a href="">
+                            <a href="tarea3/reporte.html">
                                 <div class="card" style="width: 18rem;">
-                                    <img src="..." class="card-img-top" alt="...">
+                                    <img src="assets/images/VR.jpeg" class="card-img-top" alt="Imagen de un VR">
                                     <div class="mitarea3">
                                         <div class="card-body">
                                             <p class="card-text">Tarea 3.</p>
@@ -136,13 +157,65 @@
                                 </div>
                             </a>
                         </div>
+
+
+
+                        <div class="col-lg-4 col-sm-12 mb-3">
+                            <a href="tarea4/frameworks.html">
+                                <div class="card" style="width: 18rem;">
+                                    <img src="assets/images/Frameworks.png" class="card-img-top"
+                                        alt="Imagen de frameworks">
+                                    <div class="mitarea4">
+                                        <div class="card-body">
+                                            <p class="card-text">Tarea 4.</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </a>
+                        </div>
+
+                        <div class="col-lg-4 col-sm-12 mb-3">
+                            <a href="tarea5/ejemAhorcado.py">
+                                <div class="card" style="width: 18rem;">
+                                    <img src="tarea5/Unknown.png" class="card-img-top"
+                                        alt="imagen del juego del ahorcado">
+                                    <div class="mitarea4">
+                                        <div class="card-body">
+                                            <p class="card-text">Tarea 5.</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </a>
+                        </div>
+
+                        <div class="col-lg-4 col-sm-12 mb-3">
+                            <a href="">
+                                <div class="card" style="width: 18rem;">
+                                    <img src="" class="card-img-top" alt="...">
+                                    <div class="mitarea4">
+                                        <div class="card-body">
+                                            <p class="card-text">Tarea 6.</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </a>
+                        </div>
                     </div>
                 </div>
+
+
+
+
+
+
+
+                <hr>
+
 
                 <!--Foto de redes para contactarme-->
 
                 <div class="redescontact">
-                    <p class="fs-1">Mis redes sociales para contactarme</p>
+                    <p class="fs-1" id="redes">Mis redes sociales para contactarme</p>
 
                 </div>
                 <div class="imagenesredes">
@@ -166,27 +239,7 @@
 
 
 
-        <div id="carouselExample" class="carousel slide">
-            <div class="carousel-inner">
-              <div class="carousel-item active">
-                <img src="assets/images/face.png" class="d-block w-100" alt="...">
-              </div>
-              <div class="carousel-item">
-                <img src="assets/images/images.jpeg" class="d-block w-100" alt="...">
-              </div>
-              <div class="carousel-item">
-                <img src="assets/images/whatsapp.png" class="d-block w-100" alt="...">
-              </div>
-            </div>
-            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
-              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-              <span class="visually-hidden">Previous</span>
-            </button>
-            <button class="carousel-control-next" type="button" data-bs-target="#carouselExample" data-bs-slide="next">
-              <span class="carousel-control-next-icon" aria-hidden="true"></span>
-              <span class="visually-hidden">Next</span>
-            </button>
-          </div>
+
 
 
 
