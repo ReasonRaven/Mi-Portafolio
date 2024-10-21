@@ -6,7 +6,7 @@
 
 body {
     background-color: rgba(128, 128, 128, 0.491) !important;
-    
+    background-image: url(images/CodigoCaido.jpeg);
     background-attachment: fixed;
 }
 
