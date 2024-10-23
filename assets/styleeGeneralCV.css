@@ -1,6 +1,8 @@
 .Yo {
     width: 550px;
     height: 450px;
+    
+    max-width: 100%;
 
 }
 
@@ -79,10 +81,13 @@ p {
 
 .lenguajes {
     padding-left: 140px;
+    padding-top: 30px;
+
 }
 
 .botoneslenguajes {
     padding-left: 140px;
+    padding-top: 10px;
 }
 
 .mistareas {
