@@ -6,10 +6,10 @@ video {
     width: 700px;
 }
 
-.sketchfab-embed-wrappe{
+.sketchfab-embed-wrapper{
     padding-left: 50px;
-    width: 1000px;
-    height: 1000px;
+    width: 100px;
+    height: 300px;
 }
 .Regresar{
     padding-left: 50px;
