@@ -1,7 +1,5 @@
 body {
   background-color: rgba(128, 128, 128, 0.491) !important;
-  background-image: url(images/CodigoCaido.jpeg);
-  background-attachment: fixed;
 }
 
 .nav-link {
@@ -10,7 +8,6 @@ body {
 
 .container {
   background-color: rgb(244, 244, 230);
-  padding-left: 50px;
 }
 
 .soy {
@@ -60,10 +57,6 @@ p {
 }
 
 .mistareas {
-  padding-left: 140px;
-}
-
-.tarjetastareas {
   padding-left: 140px;
 }
 
